@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.calculadora{
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    background-color: darkcyan;
+}
+
+div.tela{
+    position: absolute;
+    border: 1px solid black;
+    width: 93%;
+    height: 20%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(238, 237, 237, 0.315);
+    margin-top: 10px;
+}
+
+div.tela > p{
+    position: absolute;
+    top: 25%;
+}
+
+
+div.botoes{
+    position: absolute;
+    top: 25%;
+    box-sizing: border-box;
+    width: 93%;
+    height: 72%;
+    padding: 10px;
+}
+
+input{
+    margin: 7px;
+    width: 47px;
+    height: 75px;
+    background-color: lightblue;
+    box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.363);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input:hover{
+    background-color: rgb(115, 144, 153);
+}
